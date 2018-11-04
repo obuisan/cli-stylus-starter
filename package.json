@@ -1,0 +1,24 @@
+{
+  "name": "cli-stylus-starter",
+  "version": "1.0.0",
+  "description": "CLI Stylus workflow starter",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/obuisan/cli-stylus-starter.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "stylus ./stylus --out ./css --compress -u autoprefixer-stylus --sourcemap",
+    "watch": "stylus --watch ./stylus --out ./css -u autoprefixer-stylus --sourcemap"
+  },
+  "keywords": [
+    "autoprefixer",
+    "stylus"
+  ],
+  "author": "obuisan",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.14.0",
+    "stylus": "^0.54.5"
+  }
+}
